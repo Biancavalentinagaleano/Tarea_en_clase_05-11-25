@@ -1,1 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+header, main, footer {
+    margin-bottom: 30px;
+}
+
+/* Animación títulos */
+.titulo-animado {
+    font-size: 36px;
+    color: #0078d7;
+    animation: aparecer 2s ease-in-out infinite alternate;
+}
+
+.subtitulo-animado {
+    font-size: 24px;
+    color: #ff6600;
+    animation: aparecer 2s ease-in-out infinite alternate;
+}
+
+/* Animación keyframes */
+@keyframes aparecer {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Botones con estilo y animación */
+.boton {
+    display: inline-block;
+    background-color: #0078d7;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #ff6600;
+    transform: scale(1.1);
+}
 
