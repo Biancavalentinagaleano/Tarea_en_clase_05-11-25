@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina_1 - Productos de Belleza - Bianca Galeano</title>
+    <link rel="stylesheet" href="mi_pagina.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-animado">Productos de Belleza</h1>
+    </header>
+
+    <main>
+        <!-- Tabla de productos -->
+        <section>
+            <h2 class="subtitulo-animado">Tabla de Productos</h2>
+            <table class="tabla-productos">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Categoría</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Maquillaje -->
+                    <tr>
+                        <td>M001</td>
+                        <td>Base Líquida</td>
+                        <td>$15</td>
+                        <td>Maquillaje</td>
+                    </tr>
+                    <tr>
+                        <td>M002</td>
+                        <td>Rímel</td>
+                        <td>$10</td>
+                        <td>Maquillaje</td>
+                    </tr>
+                    <tr>
+                        <td>M003</td>
+                        <td>Labial</td>
+                        <td>$12</td>
+                        <td>Maquillaje</td>
+                    </tr>
+
+                    <!-- Skin Care -->
+                    <tr>
+                        <td>S001</td>
+                        <td>Crema Hidratante</td>
+                        <td>$20</td>
+                        <td>Skin Care</td>
+                    </tr>
+                    <tr>
+                        <td>S002</td>
+                        <td>Serum Facial</td>
+                        <td>$25</td>
+                        <td>Skin Care</td>
+                    </tr>
+                    <tr>
+                        <td>S003</td>
+                        <td>Exfoliante</td>
+                        <td>$18</td>
+                        <td>Skin Care</td>
+                    </tr>
+
+                    <!-- Tratamiento para el pelo -->
+                    <tr>
+                        <td>P001</td>
+                        <td>Shampoo Reparador</td>
+                        <td>$15</td>
+                        <td>Tratamiento Pelo</td>
+                    </tr>
+                    <tr>
+                        <td>P002</td>
+                        <td>Acondicionador</td>
+                        <td>$12</td>
+                        <td>Tratamiento Pelo</td>
+                    </tr>
+                    <tr>
+                        <td>P003</td>
+                        <td>Mascarilla Capilar</td>
+                        <td>$20</td>
+                        <td>Tratamiento Pelo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Navegación -->
+        <section>
+            <h2 class="subtitulo-animado">Navegación</h2>
+            <div class="botones">
+                <a href="index.html" class="boton">Ir a Página Principal</a>
+                <a href="pagina2.html" class="boton">Ir a pagina_2</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 - Bianca Galeano</p>
+    </footer>
+</body>
+</html>
 
