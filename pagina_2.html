@@ -1,36 +1,21 @@
-/* ========================================== */
-/* Empleados - imágenes elegantes              */
-/* ========================================== */
-.empleados {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* reducido para ajustar mejor a 100px */
-    margin: 25px 0;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Empleados - Bianca Galeano</title>
+    <link rel="stylesheet" href="mi_pagina.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-animado">Conoce a Nuestro Equipo</h1>
+    </header>
 
-.empleado {
-    text-align: center;
-    width: 120px; /* un poco mayor para incluir texto debajo */
-}
+    <main>
+        <!-- Sección de empleados -->
+        <section>
+            <h2 class="subtitulo-animado">Empleados</h2>
+            <div class="empleados">
+                <div class="empleado">
+                    <img src="https://img.freepik.com/fotos-premium/retrato-cerca-mujer-sincera-sonriente-atractiva-dientes-blancos-mira
 
-.empleado img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #2980b9;
-    animation: girarImagenElegante 4s infinite alternate;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.empleado img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #e67e22;
-}
-
-/* Animación suave de giro */
-@keyframes girarImagenElegante {
-    0% { transform: rotate(0deg); }
-    50% { transform: rotate(8deg); }
-    100% { transform: rotate(-8deg); }
-}
