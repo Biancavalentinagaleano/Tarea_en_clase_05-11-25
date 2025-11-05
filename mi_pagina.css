@@ -1,4 +1,6 @@
-/* Estilos generales */
+/* ========================================== */
+/* Estilos generales                           */
+/* ========================================== */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -11,7 +13,9 @@ header, main, footer {
     margin-bottom: 30px;
 }
 
-/* Animación títulos */
+/* ========================================== */
+/* Animación títulos                           */
+/* ========================================== */
 .titulo-animado {
     font-size: 36px;
     color: #0078d7;
@@ -24,13 +28,15 @@ header, main, footer {
     animation: aparecer 2s ease-in-out infinite alternate;
 }
 
-/* Animación keyframes */
+/* Keyframes animación */
 @keyframes aparecer {
     0% { opacity: 0; transform: translateY(-20px); }
     100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Botones con estilo y animación */
+/* ========================================== */
+/* Botones con estilo y animación             */
+/* ========================================== */
 .boton {
     display: inline-block;
     background-color: #0078d7;
@@ -47,7 +53,10 @@ header, main, footer {
     background-color: #ff6600;
     transform: scale(1.1);
 }
-/* Tabla de productos */
+
+/* ========================================== */
+/* Tabla de productos                          */
+/* ========================================== */
 .tabla-productos {
     width: 80%;
     margin: 20px auto;
