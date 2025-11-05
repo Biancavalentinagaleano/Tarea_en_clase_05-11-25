@@ -47,4 +47,32 @@ header, main, footer {
     background-color: #ff6600;
     transform: scale(1.1);
 }
+/* Tabla de productos */
+.tabla-productos {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.tabla-productos th, .tabla-productos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-productos th {
+    background-color: #0078d7;
+    color: white;
+}
+
+.tabla-productos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-productos tr:hover {
+    background-color: #ffebcc;
+    transition: background-color 0.3s ease;
+}
+
 
