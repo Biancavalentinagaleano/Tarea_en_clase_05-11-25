@@ -1,61 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 2 - Empleados - Bianca Galeano</title>
-    <link rel="stylesheet" href="mi_pagina.css">
-</head>
-<body>
-    <header>
-        <h1 class="titulo-animado">Conoce a Nuestro Equipo</h1>
-    </header>
+/* ========================================== */
+/* Empleados - imágenes elegantes              */
+/* ========================================== */
+.empleados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* reducido para ajustar mejor a 100px */
+    margin: 25px 0;
+}
 
-    <main>
-        <!-- Sección de empleados -->
-        <section>
-            <h2 class="subtitulo-animado">Empleados</h2>
-            <div class="empleados">
-                <div class="empleado">
-                    <img src="https://img.freepik.com/fotos-premium/retrato-cerca-mujer-sincera-sonriente-atractiva-dientes-blancos-mirando-camara-aislada-cabello-largo-rizado-blusa-blanca-elegante-estilo-negocios-emocion-positiva-feliz-maquillaje-labios-rojo_343960-24039.jpg" alt="Empleado 1">
-                    <p>María - Maquillaje</p>
-                </div>
-                <div class="empleado">
-                    <img src="https://tse2.mm.bing.net/th/id/OIP.ZeAlT9gKWSj4IHiYmanMsAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Empleado 2">
-                    <p>Juan - Skin Care</p>
-                </div>
-                <div class="empleado">
-                    <img src="https://img.freepik.com/premium-photo/attractive-school-teacher-isolated_115919-22921.jpg" alt="Empleado 3">
-                    <p>Laura - Tratamiento Pelo</p>
-                </div>
-                <div class="empleado">
-                    <img src="https://c8.alamy.com/comp/E8DDPD/handsome-businessman-sitting-at-office-desk-E8DDPD.jpg" alt="Empleado 4">
-                    <p>Carlos - Maquillaje</p>
-                </div>
-                <div class="empleado">
-                    <img src="https://img.freepik.com/premium-photo/female-waiter-taking-order-isolated_1034143-2109.jpg" alt="Empleado 5">
-                    <p>Ana - Skin Care</p>
-                </div>
-                <div class="empleado">
-                    <img src="https://thumbs.dreamstime.com/b/professional-businessman-suit-his-office-working-business-corporate-image-young-succesful-entrepreneur-work-97025134.jpg" alt="Empleado 6">
-                    <p>Pedro - Tratamiento Pelo</p>
-                </div>
-            </div>
-        </section>
+.empleado {
+    text-align: center;
+    width: 120px; /* un poco mayor para incluir texto debajo */
+}
 
-        <!-- Navegación -->
-        <section>
-            <h2 class="subtitulo-animado">Navegación</h2>
-            <div class="botones">
-                <a href="index.html" class="boton">Ir a Página Principal</a>
-                <a href="pagina_1.html" class="boton">Ir a Página 1</a>
-            </div>
-        </section>
-    </main>
+.empleado img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #2980b9;
+    animation: girarImagenElegante 4s infinite alternate;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    <footer>
-        <p>© 2025 - Bianca Galeano</p>
-    </footer>
-</body>
-</html>
+.empleado img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #e67e22;
+}
 
+/* Animación suave de giro */
+@keyframes girarImagenElegante {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(8deg); }
+    100% { transform: rotate(-8deg); }
+}
